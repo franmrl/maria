@@ -1,0 +1,9 @@
+{
+  "name": "mariadb",
+  "description": "DB",
+  "default_attributes": {
+  },
+  "run_list": [
+    "recipe[maria::collectd]"
+  ]
+}
